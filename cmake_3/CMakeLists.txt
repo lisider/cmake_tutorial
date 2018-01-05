@@ -1,0 +1,4 @@
+PROJECT(main)  #仅提示作用,不加可以
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6) # 用来规范版本,如果你不考虑版本因素,可以去掉
+
+ADD_EXECUTABLE(main main.cpp)
