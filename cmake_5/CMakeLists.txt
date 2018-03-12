@@ -23,4 +23,4 @@ AUX_SOURCE_DIRECTORY(. DIR_SRCS)
 ADD_EXECUTABLE(main ${DIR_SRCS})
 #target_link_libraries(main -lhello)  
 #target_link_libraries(main hello)  
-target_link_libraries(main  hello) #告诉 除了main 还有一个模块,这个模块并不知道在哪里
+target_link_libraries(main  hello) #告诉 除了main 还有一个模块,这个模块并不知道在哪里 #注意 : 前面的依赖后面的,先加载后面的
